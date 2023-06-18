@@ -1,0 +1,154 @@
+header{
+  background-color: rgba(73, 73, 73, 0.6);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  font-family: arial;
+  text-shadow: 3px 1px black;
+  border: dotted 5px rgba(255, 255, 255, 0.085);
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+header:hover{
+  border: dotted 5px rgba(255, 255, 255, 0.4);
+  transition: 1s;
+}
+h1{
+  color: white;
+}
+#nav1 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#nav1 ul li{
+  display: inline;
+  margin-left: 20px;
+}
+#nav1 ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+#b1{
+  background-image: url(images/fondo.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#t1{
+  width: 70%;
+  border: solid 1px;
+  border-radius: 15px;
+  background-color: rgba(46, 46, 46, 0.4);
+  text-shadow: 2px 3px #676767;
+  margin: 0 auto;
+  margin-top: 9%;
+  border: solid 1px white;
+}
+#foto{
+  width: 100%;
+  border-radius: 1000px;
+}
+#txt1{
+  color: white;
+  font-family: calibri;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#txt2{
+  font-family: cursive;
+  color: white;
+  margin-top: 8%;
+}
+#txt3{
+  font-family: arial;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 255, 0, 0.7);
+  text-shadow: 2px 2px black;
+}
+#t2{
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.tdProyec{
+  width: 33%;
+  padding: 20px;
+}
+.imgProyect{
+  opacity: 0.7;
+  border-radius: 15px;
+}
+.imgProyect:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 1.0;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+#txt4{
+  font-family: arial;
+  color: white;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.7);
+  text-shadow: 2px 2px black;
+}
+#imghtml{
+  z-index: 1;
+  margin-top: -15%;
+  margin-left: 2%;
+  opacity: 0.0;
+  animation-name: aparece;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+#imgcss{
+  z-index: 2;
+  margin-top: -10%;
+  margin-right: 2%;
+  opacity: 0.0;
+  animation-name: aparece;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes aparece {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#masPro{
+  text-align: center;
+  margin-top: 2%;
+  font-family: cursive;
+}
+#con{
+  font-family: calibri;
+  color: rgba(255, 0, 0, 0.8);
+}
+#datos{
+  font-family: arial;
+}
+#yoshi{
+  z-index: 4;
+  margin-top: -13%;
+  margin-left: 3%;
+}
+#mario{
+  z-index: 5;
+  margin-top: -10%;
+  margin-right: 3%;
+}

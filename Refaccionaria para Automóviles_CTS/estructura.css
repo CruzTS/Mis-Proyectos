@@ -1,0 +1,211 @@
+#log{
+	position: absolute;
+	width: 5%;
+	height: 10%;
+}
+#fhed{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#Bus1{
+	width: 100%;
+}
+#menu{
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 100%;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	color: black;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	background-color: #FFFFFF;
+}
+#b1{
+	background-image: url(fondop.jpg);
+	background-position-x: center;
+	background-position-y: center;
+}
+#b2{
+	background-image: url(fondo2.jpg);
+	background-position-x: center;
+	background-position-y: center;
+}
+.t1{
+	border-color: rgba(0,0,0, 0.7);;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-style: dashed;
+}
+.pro:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#b3{
+	background-image: url(fondo3.jpg);
+	background-position-x: center;
+	background-position-y: center;
+}
+.cap1{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+#acei{
+	margin-left: 5%;
+	position: absolute;
+}
+#acei2{
+	position: absolute;
+	margin-left: 54%;
+}
+#acei3{
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 16%;
+}
+#acei4{
+	position: absolute;
+	margin-left: 59%;
+	margin-top: 16%;
+}
+#acei:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#acei2:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#acei3:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#acei4:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#b4{
+	background-image: url(fondo4.jpg);
+	background-position-x: center;
+	background-position-y: center;
+}
+.cap2{
+	background-color: rgba(255, 255, 255, 0.7);
+	border-style: dotted;
+	border-color: black;
+}
+.cap2:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#fil{
+	position: absolute;
+	margin-left: 8%;
+}
+#fil2{
+	position: absolute;
+	margin-left: 51%;
+}
+#fil3{
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 15%;
+}
+#fil4{
+	position: absolute;
+	margin-left: 51%;
+	margin-top: 15%;
+}
+#fil5{
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 30%;
+}
+#fil6{
+	position: absolute;
+	margin-left: 51%;
+	margin-top: 30%;
+}
+#fil7{
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 18%;
+}
+#fil8{
+	position: absolute;
+	margin-left: 51%;
+	margin-top: 18%;
+}
+#b5{
+	background-image: url(fondo5.jpg);
+	background-position-x: center;
+	background-position-y: center;
+}
+#b6{
+	background-image: url(fondo6.jpg);
+	background-position-x: center;
+	background-position-y: center;
+}
+#caprin{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.social-bar{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: 1.1rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook{
+	background: #2E406E;
+	border-radius: 1rem 0 0 0;
+}
+.icon-twitter{
+	background: #339DC5;
+}
+.icon-play{
+	background: #E83028;
+}
+.icon-instagram{
+	background: #FF02CD;
+	border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+#brr{
+	background-image: url(flog.png);
+}
+#c1{
+	margin-top: 10%;
+}
