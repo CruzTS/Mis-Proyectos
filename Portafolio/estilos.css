@@ -70,7 +70,7 @@ h1{
 #txt2{
   font-family: cursive;
   color: white;
-  margin-top: 8%;
+  margin-top: 12%;
 }
 #txt3{
   font-family: arial;
@@ -110,7 +110,7 @@ footer{
 }
 #imghtml{
   z-index: 1;
-  margin-top: -15%;
+  margin-top: -20%;
   margin-left: 2%;
   opacity: 0.0;
   animation-name: aparece;
